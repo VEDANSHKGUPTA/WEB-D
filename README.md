@@ -1,2 +1,2 @@
-# dispecables
+# despecables
 KIET HACKATHON
