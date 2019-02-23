@@ -30,4 +30,17 @@ void loop() {
    digitalWrite(LED3,HIGH);
    delay(5000);
   }
+    else if(LDRValue<=700&&LDRValue>=300)
+  {
+   digitalWrite(LED1,HIGH);
+   digitalWrite(LED4,HIGH);
+   digitalWrite(LED2,LOW);
+   digitalWrite(LED3,LOW);
+   delay(10000);
+   digitalWrite(LED1,LOW);
+   digitalWrite(LED4,LOW);
+   digitalWrite(LED2,HIGH);
+   digitalWrite(LED3,HIGH);
+   delay(10000);
+  }
 }
